@@ -29,7 +29,25 @@ body {
     font-weight: 700;
 }
 
+/* Custom Progress Bar Styles */
+
+.progress {
+  height: 30px;
+}
+
+.progress-bar {
+  background-color: #3D84A8;
+}
+
 /* Custom Icon Styles */
+
+.social-icon {
+  color: rgba(61,132,168, 0.8);
+}
+
+.social-icon:hover {
+  color: rgba(61,132,168, 1);
+}
 
 .icon-dark {
   border-radius: 50%;

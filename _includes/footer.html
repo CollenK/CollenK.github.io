@@ -1,42 +1,18 @@
-<footer id="contact">
+<footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <form action="https://formspree.io/collen.kriel@gmail.com" method="POST">
-          <div class="form-group">
-            <label>Name</label>
-            <input type="text" name="name" class="form-control" placeholder="Your Name">
-          </div>
-          <div class="form-group">
-            <label>Email address</label>
-            <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" placeholder="Your Email">
-          </div>
-          <div class="form-group">
-            <label>Message</label>
-            <textarea name="_message" class="form-control" rows="3" placeholder="Type your message"></textarea>
-          </div>
-            <button type="submit" value="Send" class="btn btn-dark">Send</button>
-            <input type="hidden" name="_next" value="//collenk.github.io/thanks.html" />
-            <input type="hidden" name="_subject" value="New submission!" />
-            <input type="hidden" name="_format" value="plain" />
-            <input type="text" name="_gotcha" style="display:none" />
-          </form>
-        </div>
-      </div> <!-- /form row -->
-      <br>
-      <div class="row">
-        <div class="col-lg-10 col-lg-offset-1 text-center">
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x social-icon"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x social-icon"></i></a>
-            </li>
-          </ul>
-          <hr class="small">
-          <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
-        </div>
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x social-icon"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x social-icon"></i></a>
+          </li>
+        </ul>
+        <hr class="small">
+        <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
       </div>
     </div>
+  </div>
 </footer>

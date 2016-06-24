@@ -289,8 +289,14 @@ hr.small {
     pointer-events: none;
 }
 
+/* Contact */
+
+.contact {
+  padding: 50px 0;
+}
+
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 50px 0;
 }

@@ -94,6 +94,10 @@ hr.small {
     max-width: 100px;
 }
 
+hr.medium {
+  max-width: 250px;
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -177,6 +181,10 @@ hr.small {
 
 .toggle {
     margin: 5px 5px 0 0;
+}
+
+.nav-social {
+  margin-top: 350px;
 }
 
 /* Avatar */
@@ -270,6 +278,12 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
+}
+
+#modalembed {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
 }
 
 /* Map */

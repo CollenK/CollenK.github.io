@@ -12,14 +12,16 @@ url: "" # the base hostname & protocol for your site
 owner: Collen Kriel
 email: collen.kriel@gmail.com
 facebook_username:
+linkedin_username: collenkriel
 twitter_username: collenkriel
 github_username: CollenK
+stackoverflow_username: 6418424/collen?tab=profile
 address:
   - line:
   - line:
   # Feel free to add more lines here
 telephone:
-copyright: 
+copyright:
 
 # API settings
 google_api_key:

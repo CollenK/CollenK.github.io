@@ -1,11 +1,29 @@
-<aside class="call-to-action bg-primary">
+<aside  id="resume" class="call-to-action bg-color">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h3>The buttons below are impossible to resist.</h3>
-        <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-        <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+        <h3>Like what you've seen so far? Download my resume.</h3>
+
+        <div class="modal-button">
+          <!-- Small modal button -->
+          <button class="btn btn-lg btn-light" data-toggle="modal" data-target=".bd-example-modal-lg" data-toggle="tooltip" data-placement="top" title="View my resume">Resume</button>
+        </div> <!-- /modal-button -->
+
       </div>
     </div>
+    <!-- Large Modal -->
+     <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+       <div class="modal-dialog modal-lg">
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+             <h4 class="modal-title" id="myModalLabel">Resume</h4>
+           </div>
+           <div class="modal-body">
+             <embed id="modalembed" src="img/ckriel_resume.pdf">
+           </div>
+         </div>
+       </div>
+     </div>
   </div>
 </aside>

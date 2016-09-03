@@ -239,6 +239,12 @@ hr.medium {
     margin-bottom: 30px;
 }
 
+.logo-center {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
 /* Callout */
 
 .callout {

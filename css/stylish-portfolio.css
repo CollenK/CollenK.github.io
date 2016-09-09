@@ -299,7 +299,7 @@ hr.medium {
 
 /* Map */
 
-.map {
+/*.map {
     height: 500px;
 }
 
@@ -307,12 +307,12 @@ hr.medium {
     .map {
         height: 75%;
     }
-}
+}*/
 
 /*disable custom maps scrolling behaviour*/
-.scrolloff {
+/*.scrolloff {
     pointer-events: none;
-}
+}*/
 
 /* Contact */
 

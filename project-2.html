@@ -6,26 +6,52 @@ layout: portfolio-item
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h1>SaaS Project Management Web App</h1>
+          <h1>Project Management Web App</h1>
           <hr class="small">
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
+          <br>
           <a href="https://collen-saas-app.herokuapp.com/" target="_blank">
-            <img class="img-portfolio img-responsive" src="../img/portfolio-1.jpg">
+            <img class="img-portfolio img-responsive" src="../img/portfolio-2.jpg">
           </a>
         </div>
         <div class="col-md-6">
           <h3>Description</h3>
-          <p>
-            eCommerce Web App with elastic search, product rating and comments, Stripe checkout.
-          </p>
+            <p>
+              This basic SaaS project management app built in Rails 4.2 uses multi-tenancy to allow
+              an organization to set up an account, add employees to that account and assign
+              projects to them.
+            </p>
+            <p>
+              Two plans are available: a Free Plan that allows one project and a Premium Plan
+              that allows multiple projects. An organization’s admin user can create projects,
+              add users, add users to projects and switch between the Free and Premium plans.
+              At signup, users receive an email with a confirmation link, sent using SendGrid
+              on Heroku.
+            </p>
+            <p>
+              Checkout is via a custom payment form and handled by Stripe.
+            </p>
+            <p>
+              Projects have expected completion dates and users can upload artifacts up to a max
+              file size of 10MB. Amazon Web Services S3 is used for cloud storage.
+            </p>
           <h3>Stack</h3>
-
+            <ul>
+              <li>Ruby & Ruby on Rails (4.2)</li>
+              <li>JavaScript & jQuery</li>
+              <li>HTML5, CSS3 & Bootstrap</li>
+              <li>Stripe API</li>
+              <li>Devise & Millia</li>
+              <li>AWS S3</li>
+              <li>Git, GitHub, Heroku, SQLite & PostgreSQL</li>
+            </ul>
           <p class="lead">View this project on <a href="https://github.com/CollenK/saas-project-app"
             target="_blank">GitHub</a> and live on <a href="https://collen-saas-app.herokuapp.com/"
             target="_blank">Heroku</a>.</p>
+          <p><em>Please allow a moment for the app to load as it's hosted on Heroku's free tier.</em></p>
         </div>
       </div>
     </div>
